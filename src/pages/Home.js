@@ -1,13 +1,15 @@
 import React from 'react';
+import '../styles/variables.css';
+import '../styles/Hero.css';
 
-const Hero = () => {
+const Home = () => {
     return (
-        <section id="about" className="min-h-screen pt-16 flex items-center justify-center bg-white">
+        <section className="hero min-h-screen pt-16 flex items-center justify-center">
             <div className="max-w-4xl mx-auto px-4 py-16 text-center">
                 <img
                     src="/api/placeholder/150/150"
                     alt="Profile"
-                    className="w-32 h-32 rounded-full mx-auto mb-8 object-cover"
+                    className="hero-image w-32 h-32 rounded-full mx-auto mb-8 object-cover"
                 />
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                     Duke Zhu
@@ -25,4 +27,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default Home;

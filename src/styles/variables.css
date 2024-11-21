@@ -1,0 +1,10 @@
+/* src/styles/variables.css */
+:root {
+    --primary-yellow: #FFC107;
+    --light-yellow: #FFF3D4;
+    --dark-yellow: #FFA000;
+    --text-dark: #2D3748;
+    --text-light: #4A5568;
+    --white: #FFFFFF;
+    --off-white: #F9FAFB;
+}

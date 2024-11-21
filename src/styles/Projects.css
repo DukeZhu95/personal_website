@@ -1,0 +1,14 @@
+.project-card {
+    border: 1px solid #E2E8F0;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    border-color: var(--primary-yellow);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.project-tag {
+    background-color: var(--light-yellow) !important;
+    color: var(--dark-yellow) !important;
+}

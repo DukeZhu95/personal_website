@@ -1,0 +1,12 @@
+.hero {
+    background: linear-gradient(135deg, var(--light-yellow) 0%, var(--white) 100%);
+}
+
+.hero-image {
+    border: 4px solid var(--primary-yellow);
+    transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+    transform: scale(1.05);
+}
