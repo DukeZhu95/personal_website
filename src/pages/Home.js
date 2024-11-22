@@ -1,5 +1,7 @@
 // src/pages/Home.js
 import React from 'react';
+import '../styles/variables.css';
+import '../styles/Hero.css';
 
 const Home = () => {
     return (
