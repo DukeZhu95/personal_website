@@ -1,4 +1,6 @@
+// src/components/Education.js
 import React from 'react';
+import '../styles/Education.css';
 
 const Education = () => {
     const education = [
@@ -16,14 +18,17 @@ const Education = () => {
     ];
 
     return (
-        <section id="education" className="min-h-screen py-16 bg-gray-50">
+        <section className="education-section min-h-screen py-16">
             <div className="max-w-4xl mx-auto px-4">
                 <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
                     Education Background
                 </h2>
                 <div className="space-y-8">
                     {education.map((edu, index) => (
-                        <div key={index} className="bg-white rounded-lg shadow-md p-6">
+                        <div
+                            key={index}
+                            className="education-card bg-white rounded-lg shadow-md p-6"
+                        >
                             <h3 className="text-xl font-semibold text-gray-900">{edu.school}</h3>
                             <p className="text-gray-600">{edu.degree}</p>
                             <p className="text-gray-500 text-sm mb-4">{edu.period}</p>

@@ -1,0 +1,12 @@
+.contact-section {
+    background: linear-gradient(45deg, var(--white) 0%, var(--light-yellow) 100%);
+}
+
+.contact-link {
+    transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+    color: var(--primary-yellow) !important;
+    transform: translateY(-2px);
+}
