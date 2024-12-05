@@ -90,17 +90,17 @@ const Education = () => {
             ],
             skills_gained: [
                 "Full-stack web development",
+                "Game development",
                 "Mobile app development",
-                "Software testing and debugging",
                 "Agile methodologies",
-                "Technical documentation",
+                "Software testing & debugging",
                 "Team collaboration"
             ]
         }
     ];
 
     return (
-        <section className="education-section min-h-screen py-16 bg-gray-50">
+        <section className="education-section min-h-screen py-16" style={{ backgroundColor: 'var(--background-primary)' }}>
             <div className="max-w-4xl mx-auto px-4">
                 <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
                     Education Background

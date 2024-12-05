@@ -20,7 +20,7 @@ const Projects = () => {
     ];
 
     return (
-        <section className="min-h-screen py-16 bg-white">
+        <section className="min-h-screen py-16" style={{ backgroundColor: 'var(--background-primary)' }}>
             <div className="max-w-4xl mx-auto px-4">
                 <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
                     Projects Review
@@ -29,7 +29,7 @@ const Projects = () => {
                     {projects.map((project, index) => (
                         <div
                             key={index}
-                            className="project-card rounded-lg p-6" // 添加 project-card 类名，移除 bg-gray-50
+                            className="project-card rounded-lg p-6 bg-white" // 添加 project-card 类名，移除 bg-gray-50
                         >
                             <h3 className="text-xl font-semibold text-gray-900 mb-2">
                                 {project.title}

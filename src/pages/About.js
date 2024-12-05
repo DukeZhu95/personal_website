@@ -4,7 +4,7 @@ import { Code, Globe, Heart, Target } from 'lucide-react'; // 导入图标
 
 const About = () => {
     return (
-        <div className="min-h-screen pt-20 bg-gradient-to-b from-white to-gray-50">
+        <div className="min-h-screen pt-20" style={{ backgroundColor: 'var(--background-primary)' }}>
             <div className="max-w-4xl mx-auto px-4">
                 <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
                     About Me

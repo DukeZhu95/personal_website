@@ -1,5 +1,6 @@
 /* src/styles/variables.css */
 :root {
+    --background-primary: #fff5e6;  /* 添加这行 */
     --primary-yellow: #FFC107;
     --light-yellow: #FFF3D4;
     --dark-yellow: #FFA000;
