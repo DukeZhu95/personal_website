@@ -9,6 +9,7 @@ const Education = () => {
         {
             school: "University of Waikato",
             degree: "Master of Information Technology",
+            honors: "First Class Honors",
             period: "Feb 2023 - Nov 2024",
             location: "Hamilton, New Zealand",
             courses: [
@@ -85,8 +86,9 @@ const Education = () => {
             ],
             achievements: [
                 "Research and Enterprise Study Award - 2024",
-                "Consistently achieved high grades in programming-related courses",
-                "Active participant in university's tech community"
+                "Developed a pixel RPG game from scratch using Java",
+                "Consistently achieved high grades in programming-related courses"
+
             ],
             skills_gained: [
                 "Full-stack web development",
@@ -115,6 +117,7 @@ const Education = () => {
                                 <div>
                                     <h3 className="text-2xl font-semibold text-gray-900">University of Waikato</h3>
                                     <p className="text-xl text-gray-600">Master of Information Technology</p>
+                                    <p className="text-gray-500">First Class Honors</p>
                                     <p className="text-gray-500">Feb 2023 - Nov 2024 | Hamilton, New Zealand</p>
                                 </div>
                             </div>
